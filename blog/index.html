@@ -9,19 +9,16 @@
     <link rel="stylesheet" href="./static/css/me.css">
 </head>
 <body>
-    <script src="https://cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
-
     <!--navigation-->
     <nav class="ui inverted attached segment m-padded-tb-mini">
         <div class="ui container">
-            <div class="ui inverted secondary menu">
+            <div class="ui inverted secondary stackable menu">
                 <h2 class="ui teal header item">Blog</h2>
-                <a href="#" class="item"><i class="home icon"></i>Home</a>
-                <a href="#" class="item"><i class="idea icon"></i>Category</a>
-                <a href="#" class="item"><i class="tags icon"></i>Tags</a>
-                <a href="#" class="item"><i class="info icon"></i>About me</a>
-                <div class="right item">
+                <a href="#" class="m-item item m-mobile-hide"><i class="home icon"></i>Home</a>
+                <a href="#" class="m-item item m-mobile-hide"><i class="idea icon"></i>Category</a>
+                <a href="#" class="m-item item m-mobile-hide"><i class="tags icon"></i>Tags</a>
+                <a href="#" class="m-item item m-mobile-hide"><i class="info icon"></i>About me</a>
+                <div class="right m-item item m-mobile-hide">
                     <div class="ui icon inverted transparent input">
                         <input type="text" placeholder="Search...">
                         <i class="search link icon"></i>
@@ -29,12 +26,15 @@
                 </div>
             </div>
         </div>
+        <a href="#" class="ui menu toggle black icon button m-right-top m-mobile-show">
+            <i class="sidebar icon"></i>
+        </a>
     </nav>
 
     <!--content-->
     <div class="m-container m-padded-tb-large">
         <div class="ui container">
-            <div class="ui grid">
+            <div class="ui stackable grid">
                 <!--left content: blog list-->
                 <div class="eleven wide column">
                     <!----header---->
@@ -49,10 +49,10 @@
                         </div>
                     </div>
 
-                    <!---content-->
+                    <!---description-->
                     <div class="ui attached segment">
                         <div class="ui padded vertical segment m-padded-tb-large">
-                            <div class="ui grid">
+                            <div class="ui mobile reversed stackable grid">
                                 <div class="eleven wide column">
                                     <h3 class="ui header">Title</h3>
                                     <p class="m-text">this is a place holder for description. this is a place holder for description. this is a place holder for description.</p>
@@ -90,7 +90,7 @@
                             </div>
                         </div>
                         <div class="ui padded vertical segment m-padded-tb-large">
-                            <div class="ui grid">
+                            <div class="ui mobile reversed stackable grid">
                                 <div class="eleven wide column">
                                     <h3 class="ui header">Title</h3>
                                     <p class="m-text">this is a place holder for description. this is a place holder for description. this is a place holder for description.</p>
@@ -130,7 +130,7 @@
                     </div>
 
                     <!---footer-->
-                    <div class="ui top attached segment">
+                    <div class="ui bottom attached segment">
                         <div class="ui middle two column grid">
                             <div class="column">
                                 <a href="#" class="ui min teal basic button">Prev</a>
@@ -169,7 +169,7 @@
                     </div>
 
                     <!--tags-->
-                    <div class="ui segments">
+                    <div class="ui segments m-margin-top-large">
                         <div class="ui secondary segment">
                             <div class="ui two column grid">
                                 <div class="column"><i class="tags icon"></i>Tags</div>
@@ -198,8 +198,8 @@
                         </div>
                     </div>
 
-                    <!--latest recommendation-->
-                    <div class="ui segments">
+                    <!--latest blog-->
+                    <div class="ui segments m-margin-top-large">
                         <div class="ui secondary segment">
                             <i class="bookmark icon"></i>Latest Bolg
                         </div>
@@ -217,13 +217,15 @@
                 </div>
             </div>
         </div>
-
     </div>
+
+    <br>
+    <br>
 
     <!--footer-->
     <footer class="ui inverted vertical segment m-padded-tb-massive">
         <div class="ui center aligned container">
-            <div class="ui inverted divided grid">
+            <div class="ui inverted divided stackable grid">
                 <div class="eight wide column">
                     <h4 class="ui inverted header">Contact</h4>
                     <div class="ui inverted link list">
@@ -241,5 +243,14 @@
             <p class="m-text-thin m-text-space m-text-lined m-text-mini">Created by Tianhui Li. Start on Aug.2020.</p>
         </div>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.2/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/semantic-ui/2.2.4/semantic.min.js"></script>
+
+    <script>
+        $('.menu.toggle').click(function () {
+            $('.m-item').toggleClass('m-mobile-hide');
+        });
+    </script>
 </body>
 </html>

@@ -20,6 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ebb421b1-00ac-4b4c-8289-30eb46705e62" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/blog.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/blog.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/css/me.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/me.css" afterDir="false" />
@@ -38,6 +39,12 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
   </component>
   <component name="ProjectId" id="1gL6kWgHtctk6Qz8LGM7WxJi26Z" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -59,7 +66,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -69,7 +76,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1597881670275</updated>
-      <workItem from="1597881672405" duration="9337000" />
+      <workItem from="1597881672405" duration="12020000" />
     </task>
     <servers />
   </component>
@@ -88,14 +95,14 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="221" y="89" width="1201" height="722" key="SettingsEditor" timestamp="1597887643740">
+    <state x="221" y="89" width="1201" height="722" key="SettingsEditor" timestamp="1597895058474">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="221" y="89" key="SettingsEditor/0.0.1440.900/-327.-1057.1920.1057@0.0.1440.900" timestamp="1597887643740" />
-    <state x="221" y="89" width="1201" height="722" key="SettingsEditor/0.0.1440.900/-327.-1080.1920.1080@0.0.1440.900" timestamp="1597881889498" />
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1597885251741">
+    <state x="221" y="89" width="1201" height="722" key="SettingsEditor/0.0.1440.900/-327.-1080.1920.1080@0.0.1440.900" timestamp="1597895058474" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1597894261067">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900/-327.-1080.1920.1080@0.0.1440.900" timestamp="1597885251741" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900/-327.-1080.1920.1080@0.0.1440.900" timestamp="1597894261067" />
   </component>
 </project>
