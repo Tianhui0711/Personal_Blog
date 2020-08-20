@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+<!--    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/semantic-ui/2.2.4/semantic.min.css" >
+    <link rel="stylesheet" href="./static/css/me.css">
+</head>
+<body>
+    <!--navigation-->
+    <nav class="ui inverted attached segment m-padded-tb-mini">
+        <div class="ui container">
+            <div class="ui inverted secondary stackable menu">
+                <h2 class="ui teal header item">Blog</h2>
+                <a href="#" class="m-item item m-mobile-hide"><i class="home icon"></i>Home</a>
+                <a href="#" class="m-item item m-mobile-hide"><i class="idea icon"></i>Category</a>
+                <a href="#" class="m-item item m-mobile-hide"><i class="tags icon"></i>Tags</a>
+                <a href="#" class="m-item item m-mobile-hide"><i class="clone icon"></i>Archive</a>
+                <a href="#" class="m-item item m-mobile-hide"><i class="info icon"></i>About me</a>
+                <div class="right m-item item m-mobile-hide">
+                    <div class="ui icon inverted transparent input">
+                        <input type="text" placeholder="Search...">
+                        <i class="search link icon"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="ui menu toggle black icon button m-right-top m-mobile-show">
+            <i class="sidebar icon"></i>
+        </a>
+    </nav>
+
+    <!--content-->
+    <div class="m-container-small m-padded-tb-big">
+        <div class="ui container">
+            <!---header-->
+            <div class="ui top attached segment">
+                <div class="ui horizontal link list">
+                    <div class="item">
+                        <img src="https://picsum.photos/id/1005/100/100" alt="img" class="ui avatar image">
+                        <div class="content">
+                            <a href="#" class="header">
+                                Tianhui Li
+                            </a>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <i class="calendar icon"></i>  2020-08-29
+                    </div>
+                    <div class="item">
+                        <i class="eye icon"></i> 100
+                    </div>
+                </div>
+            </div>
+
+            <!---image-->
+            <div class="ui attached segment">
+                <img src="https://picsum.photos/id/1005/800/450" alt="img" class="ui rounded fluid image">
+            </div>
+
+            <!---content-->
+            <div class="ui attached padded segment">
+                <div class="ui right aligned basic segment">
+                    <div class="ui orange basic label">Original</div>
+                </div>
+                <h2 class="ui header center aligned">
+                    The Racist Legacy of Computer-Generated Humans
+                </h2>
+                <br>
+                <div id="content" class="m-padded-lr-responsive m-padded-tb-large">
+                    <p>Computer-generated imagery is supposed to be one of the success stories of computer science.
+                        Starting in the 1970s, the algorithms for realistically depicting digital worlds were developed
+                        in a monumental joint effort between academic, commercial and federal research labs. Today, we
+                        stream the results onto the screens in our homes. Escaping into worlds where computer-generated
+                        superheroes right all wrongs, or toys come to life to comfort us, are welcome respites from
+                        stories of real-life systemic racism, the ubiquitous dimensions of which are becoming clearer
+                        every day.</p>
+                    <p>Alas, this technology has an insidious, racist legacy all its own.</p>
+                    <p>For almost two decades, I have worked on the science and technology behind movies. I was formerly
+                        a senior research scientist at Pixar and am currently a professor at Yale. If you have seen a
+                        blockbuster movie in the last decade, you have seen my work. I got my start at Rhythm and Hues
+                        Studios in 2001, when the first credible computer-generated humans began appearing in film. The
+                        real breakthrough was the character of Gollum in The Lord of the Rings: The Two Towers (2002),
+                        when Weta Digital applied a technique from Stanford called “dipole approximation” that
+                        convincingly captured the translucency of his skin. For the scientists developing these
+                        technologies, the term “skin” has become synonymous with “translucency.” Decades of effort
+                        has been poured into faithfully capturing this phenomenon.</p>
+                </div>
+
+                <!---tags--->
+                <div class="m-padded-tb-large m-padded-lr-responsive">
+                    <div class="ui basic teal left pointing label">tag1</div>
+                </div>
+
+            </div>
+
+            <!---info--->
+            <div class="ui attached positive message vertical center">
+                <div class="ui segment basic">
+                    <ui class="list">
+                        <li>Author: Tianhui Li</li>
+                        <li>Time: 2020/08/20 </li>
+                    </ui>
+                </div>
+            </div>
+
+            <!---comment--->
+            <div class="ui bottom attached segment">
+                <div class="ui teal segment">
+                    <div class="ui comments">
+                        <h3 class="ui dividing header">Comments</h3>
+                        <div class="comment">
+                            <a class="avatar">
+                                <img src="https://picsum.photos/id/1005/400/400">
+                            </a>
+                            <div class="content">
+                                <a class="author">Matt</a>
+                                <div class="metadata">
+                                    <span class="date">今天下午 5:42</span>
+                                </div>
+                                <div class="text">太赞了！ </div>
+                                <div class="actions">
+                                    <a class="reply">Reply</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="comment">
+                            <a class="avatar">
+                                <img src="https://picsum.photos/id/1005/400/400">
+                            </a>
+                            <div class="content">
+                                <a class="author">Elliot Fu</a>
+                                <div class="metadata">
+                                    <span class="date">昨天上午12:30</span>
+                                </div>
+                                <div class="text">
+                                    <p>這對我的研究是非常有用.謝謝!</p>
+                                </div>
+                                <div class="actions">
+                                    <a class="reply">Reply</a>
+                                </div>
+                            </div>
+                            <div class="comments">
+                                <div class="comment">
+                                    <a class="avatar">
+                                        <img src="https://picsum.photos/id/1005/400/400">
+                                    </a>
+                                    <div class="content">
+                                        <a class="author">Jenny Hess</a>
+                                        <div class="metadata">
+                                            <span class="date">刚刚</span>
+                                        </div>
+                                        <div class="text">艾略特你永远是多么正确 :) </div>
+                                        <div class="actions">
+                                            <a class="reply">Reply</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="comment">
+                            <a class="avatar">
+                                <img src="https://picsum.photos/id/1005/400/400">
+                            </a>
+                            <div class="content">
+                                <a class="author">Joe Henderson</a>
+                                <div class="metadata">
+                                    <span class="date">5 天以前</span>
+                                </div>
+                                <div class="text">老兄，这太棒了。非常感谢。 </div>
+                                <div class="actions">
+                                    <a class="reply">Reply</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="ui form">
+                    <div class="field">
+                        <textarea name="content" placeholder="Please write your reply..."></textarea>
+                    </div>
+                    <div class="fields">
+                        <div class="field m-mobile-wide m-margin-bottom-small">
+                            <div class="ui left icon input">
+                                <i class="user icon"></i>
+                                <input type="text" name="nickname" placeholder="Name">
+                            </div>
+                        </div>
+                        <div class="field m-mobile-wide m-margin-bottom-small">
+                            <div class="ui left icon input">
+                                <i class="mail icon"></i>
+                                <input type="text" name="email" placeholder="Email">
+                            </div>
+                        </div>
+                        <div class="field  m-margin-bottom-small m-mobile-wide">
+                            <button id="commentpost-btn" type="button" class="ui teal button m-mobile-wide"><i class="edit icon"></i>Post</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <br>
+
+    <!--footer-->
+    <footer class="ui inverted vertical segment m-padded-tb-massive">
+        <div class="ui center aligned container">
+            <div class="ui inverted divided stackable grid">
+                <div class="eight wide column">
+                    <h4 class="ui inverted header">Contact</h4>
+                    <div class="ui inverted link list">
+                        <a href="#" class="item">Email: li.tianhu@northeastern.edu</a>
+                        <a href="#" class="item">Linkedin:</a>
+                        <a href="#" class="item">Phone:</a>
+                    </div>
+                </div>
+                <div class="eight wide column">
+                    <h4 class="ui inverted header">Latest Blog</h4>
+                    <p>This is Tianhui Li's Blog. Welcome!</p>
+                </div>
+            </div>
+            <div class="ui inverted section divider"></div>
+            <p class="m-text-thin m-text-space m-opacity-tiny">Created by Tianhui Li. Start on Aug.2020.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.2/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/semantic-ui/2.2.4/semantic.min.js"></script>
+
+    <script>
+        $('.menu.toggle').click(function () {
+            $('.m-item').toggleClass('m-mobile-hide');
+        });
+    </script>
+</body>
+</html>
