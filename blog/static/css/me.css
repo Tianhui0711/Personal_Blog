@@ -138,6 +138,12 @@ body {
     opacity: 0.6 !important;
 }
 
+/*----shadow-----*/
+.m-shadow-small {
+    -webkit-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2) !important;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2) !important;
+}
+
 /*--responsive---*/
 .m-mobile-show {
     display: none !important;
@@ -152,6 +158,11 @@ body {
     }
 
     .m-padded-lr-responsive {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+
+    .m-mobile-lr-clear {
         padding-left: 0 !important;
         padding-right: 0 !important;
     }
