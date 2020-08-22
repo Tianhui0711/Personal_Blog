@@ -36,6 +36,9 @@
         </a>
     </nav>
 
+    <!--secondary nav bar-->
+
+
     <!--content-->
     <div class="m-container-small m-padded-tb-big">
         <div class="ui container">
@@ -64,9 +67,46 @@
                     <div class="field">
                         <button class="ui teal basic button"><i class="search icon"></i>Search</button>
                     </div>
-
                 </div>
             </form>
+
+            <!--table-->
+            <table class="ui celled table">
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>Title</th>
+                        <th>Category</th>
+                        <th>Recommendation</th>
+                        <th>Post Date</th>
+                        <th>Operation</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>My first blog</td>
+                        <td>Cat1</td>
+                        <td>Yes</td>
+                        <td>08/21/2020 12:00</td>
+                        <td>
+                            <a href="#" class="ui mini basic teal button">Edit</a>
+                            <a href="#" class="ui mini basic red button">Delete</a>
+                        </td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <th colspan="6">
+                            <div class="ui pagination menu">
+                                <a href="#" class="item">Prev</a>
+                                <a href="#" class="item">Next</a>
+                            </div>
+                            <a href="#" class="ui right floated teal basic button">Create</a>
+                        </th>
+                    </tr>
+                </tfoot>
+            </table>
         </div>
     </div>
 
