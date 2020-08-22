@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Post</title>
+<!--    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/semantic-ui/2.2.4/semantic.min.css" >
+    <link rel="stylesheet" href="../static/css/me.css">
+</head>
+<body>
+    <!--navigation-->
+    <nav class="ui inverted attached segment m-padded-tb-mini">
+        <div class="ui container">
+            <div class="ui inverted secondary stackable menu">
+                <h2 class="ui teal header item">Blog Management System</h2>
+                <a href="#" class="active m-item item m-mobile-hide"><i class="home icon"></i>Home</a>
+                <a href="#" class="m-item item m-mobile-hide"><i class="idea icon"></i>Category</a>
+                <a href="#" class="m-item item m-mobile-hide"><i class="tags icon"></i>Tags</a>
+                <div class="right m-item m-mobile-hide menu">
+                    <div class="ui dropdown item">
+                        <div class="text">
+                            <img src="https://picsum.photos/id/1005/450/450" alt="img" class="ui avatar image">
+                            Tianhui Li
+                        </div>
+                        <i class="dropdown icon"></i>
+                        <div class="menu">
+                            <a href="#" class="item">Sign Out</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="ui menu toggle black icon button m-right-top m-mobile-show">
+            <i class="sidebar icon"></i>
+        </a>
+    </nav>
+
+    <!--secondary nav bar-->
+    <div class="ui attached pointing menu">
+        <div class="ui container">
+            <div class="right menu">
+                <a href="#" class="active item">Post</a>
+                <a href="#" class="teal item">Blog List</a>
+            </div>
+        </div>
+    </div>
+
+    <!--content-->
+    <div class="m-container-small m-padded-tb-big">
+        <div class="ui container">
+            <!--form-->
+            <form action="#" class="ui form" method="post">
+                <div class="field">
+                    <div class="ui left labeled input">
+                        <div class="ui selection compact teal basic dropdown label">
+                            <input type="hidden" value="original">
+                            <i class="dropdown icon"></i>
+                            <div class="default text">Original</div>
+                            <div class="menu">
+                                <div class="item" data-value="Original">Original</div>
+                                <div class="item" data-value="Original">Republished</div>
+                                <div class="item" data-value="Original">Translation</div>
+                            </div>
+                        </div>
+                        <input type="text" name="title" placeholder="Title">
+                    </div>
+                </div>
+
+                <div class="field">
+                    <textarea name="content" placeholder="Content"></textarea>
+                </div>
+
+                <div class="two fields">
+                    <div class="field">
+                        <div class="ui left labeled action input">
+                            <label class="ui compact teal basic label">Category</label>
+                            <div class="ui fluid selection dropdown">
+                                <input type="hidden" name="category">
+                                <i class="dropdown icon"></i>
+                                <div class="default text">Category</div>
+                                <div class="menu">
+                                    <div class="item" data-value="1">Error report</div>
+                                    <div class="item" data-value="2">Dev report</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="field">
+                        <div class="ui left labeled action input">
+                            <label class="ui compact teal basic label">Tag</label>
+                            <div class="ui fluid selection multiple search dropdown">
+                                <input type="hidden" name="tag">
+                                <i class="dropdown icon"></i>
+                                <div class="default text">Tag</div>
+                                <div class="menu">
+                                    <div class="item" data-value="1">Tag1</div>
+                                    <div class="item" data-value="2">Tag2</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="field">
+                    <div class="ui left labeled input">
+                        <label class="ui teal basic label">Image on the Home page</label>
+                        <input type="text" name="indexPicture" placeholder="Image url">
+                    </div>
+                </div>
+
+                <div class="inline fields">
+                    <div class="field">
+                        <div class="ui checkbox">
+                            <input type="checkbox" id="recommend" name="recommend" checked class="hidden">
+                            <label for="recommend">Recommend</label>
+                        </div>
+                    </div>
+                    <div class="field">
+                        <div class="ui checkbox">
+                            <input type="checkbox" id="shareinfo" name="shareinfo" class="hidden">
+                            <label for="shareinfo">Share Info</label>
+                        </div>
+                    </div>
+                    <div class="field">
+                        <div class="ui checkbox">
+                            <input type="checkbox" id="comment" name="comment" class="hidden">
+                            <label for="comment">Comment</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="ui right aligned container">
+                    <button type="button" class="ui button" onclick="window.history.go(-1)">Cancel</button>
+                    <button class="ui secondary button">Save</button>
+                    <button class="ui teal button">Post</button>
+                </div>
+
+            </form>
+
+        </div>
+    </div>
+
+    <br>
+    <br>
+
+    <!--footer-->
+    <footer class="ui inverted vertical segment m-padded-tb-massive">
+        <div class="ui center aligned container">
+            <div class="ui inverted divided stackable grid">
+                <div class="eight wide column">
+                    <h4 class="ui inverted header">Contact</h4>
+                    <div class="ui inverted link list">
+                        <a href="#" class="item">Email: li.tianhu@northeastern.edu</a>
+                        <a href="#" class="item">Linkedin:</a>
+                        <a href="#" class="item">Phone:</a>
+                    </div>
+                </div>
+                <div class="eight wide column">
+                    <h4 class="ui inverted header">Latest Blog</h4>
+                    <p>This is Tianhui Li's Blog. Welcome!</p>
+                </div>
+            </div>
+            <div class="ui inverted section divider"></div>
+            <p class="m-text-thin m-text-space m-opacity-tiny">Created by Tianhui Li. Start on Aug.2020.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.2/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/semantic-ui/2.2.4/semantic.min.js"></script>
+
+    <script>
+        $('.menu.toggle').click(function () {
+            $('.m-item').toggleClass('m-mobile-hide');
+        });
+        $('.ui.dropdown').dropdown({
+            on: 'hover'
+        });
+    </script>
+</body>
+</html>
