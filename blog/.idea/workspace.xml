@@ -57,7 +57,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/static/css" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/static/lib" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -72,9 +72,9 @@
       <recent name="$PROJECT_DIR$/static" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static/lib" />
       <recent name="$PROJECT_DIR$/static/css" />
       <recent name="$PROJECT_DIR$/static/lib/editormd" />
-      <recent name="$PROJECT_DIR$/static/lib" />
       <recent name="$PROJECT_DIR$/admin" />
       <recent name="$PROJECT_DIR$" />
     </key>
@@ -89,7 +89,7 @@
       <updated>1597881670275</updated>
       <workItem from="1597881672405" duration="25469000" />
       <workItem from="1598121223963" duration="2623000" />
-      <workItem from="1598230774021" duration="2624000" />
+      <workItem from="1598230774021" duration="3055000" />
     </task>
     <servers />
   </component>
