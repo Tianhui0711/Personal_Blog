@@ -57,7 +57,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/admin" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/static/lib/editormd" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -68,12 +68,14 @@
     <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/admin" />
-      <recent name="$PROJECT_DIR$" />
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/static" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static/lib/editormd" />
+      <recent name="$PROJECT_DIR$/static/lib" />
+      <recent name="$PROJECT_DIR$/admin" />
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/static" />
     </key>
   </component>
@@ -86,7 +88,8 @@
       <option name="presentableId" value="Default" />
       <updated>1597881670275</updated>
       <workItem from="1597881672405" duration="25469000" />
-      <workItem from="1598121223963" duration="1976000" />
+      <workItem from="1598121223963" duration="2623000" />
+      <workItem from="1598230774021" duration="1751000" />
     </task>
     <servers />
   </component>
@@ -106,6 +109,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="458" y="185" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1598236731739">
+      <screen x="0" y="23" width="1440" height="816" />
+    </state>
+    <state x="458" y="185" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.816/-327.-1057.1920.1057@0.23.1440.816" timestamp="1598236731739" />
     <state x="221" y="89" width="1201" height="722" key="SettingsEditor" timestamp="1597895058474">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
